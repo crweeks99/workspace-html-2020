@@ -131,7 +131,7 @@
 				<p>First Name<input type="text" name="fname"></p>
 				<p>Password<input type="passowrd" name="pwd"></p>
 				<p><input type="submit" value="Click Me"></p>
-				
+
 				<p>Please select your favorite movies:</p>
 				<p><input type="checkbox" name="movie" value="cars">Cars</p>
 				<p><input type="checkbox" name="movie" value="toys">Toy Story</p>
@@ -145,13 +145,13 @@
 				<textarea name="comments" cols="25" rows="25"></textarea>
 
 				<p>
-				<select size="5" name="color" id="colormenu" multiple>
-					<option value="red">red</option>
-					<option value="yellow">Yellow</option>
-					<option value="blue">Blue</option>
-					<option value="black">Black</option>
-					<option value="orange">Orange</option>
-				</select>
+					<select size="5" name="color" id="colormenu" multiple>
+						<option value="red">Red</option>
+						<option value="yellow">Yellow</option>
+						<option value="blue">Blue</option>
+						<option value="black">Black</option>
+						<option value="orange">Orange</option>
+					</select>
 				</p>
 
 				<p><input type="hidden" name="user" value="1234"></p>
@@ -163,8 +163,59 @@
 		</div>
 
 		<div class="practice">
+			<h1>September 12th practice</h1>
+			<fieldset>
+				<legend>This is a form group - button test</legend>
+				<label for="imgbutton">Add image button</label>
+				<input type="image" id="imgbutton" src="img/add.gif" onclick="alert('!!!!');">
+
+				<p>
+					<button>
+						<img src="img/add.gif" alt="add button">
+						ADD
+					</button>
+				</p>
+			</fieldset>
+
+			<form>
+			<fieldset>
+				<legend>HTML 5 Form Controls</legend>
+				<p>Please select your favorite color
+					<input type="color" name="favcolor">
+				</p>
+				<p>Email: <input type="email" placeholder="username@usca.edu" autofocus></p>
+				<p>Name: <input type="name" placeholder="John" required></p>
+
+				<p>Please select the date
+					<input type="date" name="selectdate">
+				</p>
+				<p>Please enter your phone number
+					<input type="tel" placeholder="xxx-xxx-xxxx" pattern="\d{3}-\d{3}-\d{4}">
+				</p>
+				<p>
+					<input type="submit" value="Click to submit">
+				</p>
+
+				<form>
+					<fieldset>
+						<legend>5 form controls</legend>
+						<input type="name" placeholder="First name" required>
+						<input type="lname" placeholder="Last name" required>
+						<input type="tel" placeholder="Phone Number" required>
+						<input type="newpwd" placeholder="New password" required>
+
+						<p><input type="checkbox" name="Male" value="male">Male</p>
+						<p><input type="checkbox" name="Female" value="female">Female</p>
+					</fieldset>
+				</form>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/5LQ7B4TFOu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+
+				
+			</fieldset>
+			</form>
 		</div>
 
 	</div>
